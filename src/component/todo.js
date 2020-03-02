@@ -17,19 +17,20 @@ function ToDo(){
     if (e.target.value < 0 || e.target.value > 5) return;
     else setDifficulty(e.target.value);
   };
-  useEffect(() => {
-    if (toDoList.length >= 1 ) { document.title = `${status}!`;}
-    else document.title = `There Is No List!`;
-  }, [toDoList]);
 
   const completeToDo = e =>{
     e.preventDefault();
     setStatus('complete');
-    console.log('e.target.value',e.target.value);
-    // e.target.value.map(item=>{
-    //   console.log('item', item);
-    // });
+    console.log('e.target.value',typeof(e.target.value));
+    return (
+      <div>hi {e.target.value}</div>
+    );
+
   };
+  useEffect(() => {
+    if (toDoList.length >= 1 ) { document.title = `${status}!`;}
+    else document.title = `There Is No List!`;
+  }, [toDoList]);
   return(
     <main>
       <form onSubmit={handelSubmit}>
@@ -39,17 +40,11 @@ function ToDo(){
       </form>
       <div >
         {
-      <div >
           toDoList.map((toDo,idx)=>{
-            console.log({toDo, idx});
-            toDo.map(item=>{
-                return <div key={idx}>
-              <li>{item}</li>
-            </div>;
-            })
-         <button value={toDo = [toDo]} onClick={completeToDo}>completed</button>
+            return <li key={idx}>{toDo}
+              <button value={toDo} onClick={completeToDo}>completed</button>
+            </li>;
           })
-          </div>
 
         }
       </div>
