@@ -1,11 +1,11 @@
-# LAB - Class 29
+# LAB - Class 31
 
 ### Author: Qusai-Alhanaktah
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-29/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-29/actions) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-31/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-31/actions) (GitHub Actions)
 
 ### Setup
 npm i react enzyme gh-pages node-sass
