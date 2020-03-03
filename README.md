@@ -5,7 +5,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-31/pull/1)
-- [ci/cd](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-31/actions) (GitHub Actions)
+- [ci/cd](https://github.com/401-advanced-javascript-qusaiAlhanaktah/lab-31/actions/runs/49103448) (GitHub Actions)
 
 ### Setup
 npm i react enzyme gh-pages node-sass
